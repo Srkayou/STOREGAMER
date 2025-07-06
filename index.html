@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>DevClub Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Abene Store</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="tec-circle">
+            <div class="circle quadrado"></div>
+            <div class="circle circulo"></div>
+            <div class="circle xis"></div>
+
+        </div>
+
+        <div class="list">
+            <div class="item active">
+
+                <div class="product-img">
+                    <img src="./img/Battlefield1capa.png" alt="Battlefild 1">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Guerras Antigas</p>
+                    <p class="product-name">Battlefild 1</p>
+                    <p class="description">Battlefield 1 é um jogo de tiro em primeira pessoa desenvolvido pela
+                        DICE e publicado pela Electronic Arts. É o décimo primeiro título principal da série Battlefield
+                        e foi lançado em outubro de 2016.</p>
+                    <button class="btn">Veja Mais</button>
+                </div>
+
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/capahomemaranha.webp" alt="Spider-Man 2">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Aventura Heroica</p>
+                    <p class="product-name">Spider-Man 2</p>
+                    <p class="description">O incrível poder do simbionte obriga Peter e Miles a encararem um
+                        desafio sem igual que vai muito além de seus alter egos mascarados, já que precisam encontrar o
+                        equilíbrio entre suas vidas pessoais, amizades e o dever de proteger quem precisa.</p>
+                    <button class="btn">Veja Mais</button>
+                </div>
+
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/GrandTheftAutoVcapa.png" alt="Grand Theft Auto V">
+                </div>
+                <div class="content">
+                    <p class="product-tag">Fora da Lei</p>
+                    <p class="product-name">Grand Theft Auto V</p>
+                    <p class="description">O mundo aberto da Rockstar games que gerou sucesso de crítica chega a
+                        uma nova geração. Entre nas vidas de três criminosos muito diferentes, Michael, Franklin e
+                        Trevor, enquanto eles arriscam tudo em uma série de assaltos ousados que podem garantir o resto
+                        de suas vidas.</p>
+                    <button class="btn">Veja Mais</button>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="arrows">
+            <button class="arrows-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-caret-left-fill"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                </svg>
+            </button>
+
+            <button class="arrows-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                    <path
+                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicato">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
